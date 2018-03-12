@@ -11,9 +11,9 @@ For SublimeText 2 & 3, support proxy `PROXY_TYPE_SOCKS5` `PROXY_TYPE_SOCKS4` `PR
 Install:
 =======
 
-**[Recommend] Package Control:** [Usage](https://sublime.wbond.net/docs/usage), `Package Control: Install Package` then search `Inline Google Translate`
+**[Recommend] Package Control:** [Usage](https://sublime.wbond.net/docs/usage), `Package Control: Install Package` then search `Inline Google Translate` (**Original broken version, use git clone methods below**)
 
-**Without Git:** Download the latest source from [GitHub](https://github.com/MTimer/SublimeText-Google-Translate-Plugin) and copy the GoogleTranslate folder to your Sublime Text "Packages" directory.
+**Without Git:** Download the latest source from [GitHub](https://github.com/stockmind/SublimeText-Google-Translate-Plugin) and copy the GoogleTranslate folder to your Sublime Text "Packages" directory.
 
 **With Git:** Clone the repository in your Sublime Text "Packages" directory:
 
@@ -25,13 +25,13 @@ The "Packages" directory is located at:
 
 * OS X:
 
-        ST2: ~/Library/Application Support/Sublime Text 2/Packages/
-        ST3: ~/Library/Application Support/Sublime Text 3/Packages/
+        ST2: git clone https://github.com/stockmind/SublimeText-Google-Translate-Plugin "$HOME/Library/Application Support/Sublime Text 2/Packages/Inline Google Translate"
+        ST3: git clone https://github.com/stockmind/SublimeText-Google-Translate-Plugin "$HOME/Library/Application Support/Sublime Text 3/Packages/Inline Google Translate"
 
 * Linux:
 
-        ST2: ~/.config/sublime-text-2/Packages/
-        ST3: ~/.config/sublime-text-3/Packages/
+        ST2: git clone https://github.com/stockmind/SublimeText-Google-Translate-Plugin "$HOME/.config/sublime-text-2/Packages/Inline Google Translate"
+        ST3: git clone https://github.com/stockmind/SublimeText-Google-Translate-Plugin "$HOME/.config/sublime-text-3/Packages/Inline Google Translate"
 
 * Windows:
 
