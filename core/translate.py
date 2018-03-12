@@ -127,7 +127,7 @@ class GoogleTranslate(object):
         fixedJSON = re.sub(r',{2,}', ',', response).replace(',]', ']')
         data = json.loads(fixedJSON)
         #print(json.dumps(data, sort_keys=False, indent=2, separators=(',', ': ')))
-        result = data[0][0][0]
+        result = "".join([x[0] for x in data[0]])
         return result
 
     def _unescape(self, text):
